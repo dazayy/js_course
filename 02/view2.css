@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: #181616;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: block;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.wrapper {
+    margin-top: 100px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 500px;
+
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.inpt {
+    padding: 9px;
+    background: #ffffff;
+
+    border-radius: 5px;
+    border: 0;
+
+    display: block;
+}
+
+
+
+.primary-btn {
+    background: #ffffff;
+    padding: 2px;
+    width: 30px;
+    text-align: center;
+
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+.done {
+    background: #1a832c;
+}
+
+.done:hover {
+    background: #135d1f;
+    transition-duration: .2s;
+
+
+}
+
+.delete {
+    background: #c02626;
+}
+
+.delete:hover {
+    background: #821919;
+    transition-duration: .2s;
+
+}
+
+
+
+.calculate {
+    width: auto;
+    background: #181616;
+    border: 1px solid #006c9a;
+
+    margin: 10px 0;
+}
+
+.calculate:hover {
+    background: #000;
+    border: 1px solid #055070;
+    transition-duration: .2s;
+
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.taks-item {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 15px;
+
+
+    
+}
+
+.btns {
+    display: inherit;
+    gap: 5px;
+}
+
+.task-text {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.task-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
